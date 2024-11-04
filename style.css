@@ -1,0 +1,39 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+footer{
+    border: 1px solid black;
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+}
+footer p{
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+}
+
+.direction-column{
+    flex-direction: column;
+}
+
+.bold{
+    font-weight: bold;
+}
+footer aside{
+    margin: 0 3rem;
+}
+.villkor{
+    line-height: 0.5rem;
+}
+.sociala{
+    line-height: normal;
+}
