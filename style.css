@@ -1,7 +1,8 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 .main {
@@ -25,4 +26,51 @@ img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+header {
+    background-color: rgb(222, 213, 190);
+    color: rgb(73, 46, 27);
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+
+footer{
+    border: 1px solid black;
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+}
+footer p{
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+}
+
+.direction-column{
+    flex-direction: column;
+}
+
+.bold{
+    font-weight: bold;
+}
+footer aside{
+    margin: 0 3rem;
+}
+.villkor{
+    line-height: 0.5rem;
+}
+.sociala{
+    line-height: normal;
+
 }
